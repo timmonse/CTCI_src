@@ -1,6 +1,5 @@
 package ArraysAndStrings;
 
-import java.util.HashMap;
 import java.util.HashSet;
 
 public class AandS1_1 {
@@ -12,9 +11,8 @@ public class AandS1_1 {
         System.out.println("Test two: " + isUnique(test2));
     }
 
-    static boolean isUnique(String input){
+    private static boolean isUnique(String input){
 
-        HashMap<Integer, String> map = new HashMap<>();
         HashSet<Object> set = new HashSet<>();
 
         for(int i = 0; i < input.length(); i++){
